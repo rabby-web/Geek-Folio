@@ -2,10 +2,41 @@
     margin: 0px;
     padding: 0px;
 }
+a{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    margin-right: 18px;
+    color: white;
+}
+a:hover{
+    border-bottom: 1px solid wheat;
+    color: wheat;
+}
+.fa-solid{
+    margin-right: 3px;
+    font-size: 15px;
+}
+li{
+    list-style: none;
+}
 .nav{
     background-color: black;
     padding: 5px;
+    color: white;
 }
 .logo-image{
     width: 160px;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
