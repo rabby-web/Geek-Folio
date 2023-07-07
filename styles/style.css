@@ -197,3 +197,10 @@ li{
     flex-direction: column;
     line-height: 30px;
 }
+/* footer */
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
