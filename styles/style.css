@@ -10,6 +10,7 @@
     color: white;
     border-radius: 0px 8px;
     font-size: 18px;
+    font-family: 'Poppins', sans-serif;
 }
 .btn:hover{
     background-color: tomato;
@@ -24,8 +25,8 @@ a{
     color: white;
 }
 a:hover{
-    border-bottom: 1px solid wheat;
-    color: wheat;
+    border-bottom: 1px solid tomato;
+    color: tomato;
 }
 .fa-solid{
     margin-right: 3px;
@@ -35,7 +36,7 @@ li{
     list-style: none;
 }
 .nav{
-    background-color: black;
+    background-color: #424141;
     padding: 5px;
     color: white;
 }
@@ -54,18 +55,22 @@ li{
 }
 /* header end */
 /* banner start */
+.header-text-h1{
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+}
 .banner-container{
     height: 100vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
     color: white;
-    background-image: url('../images/background.png');
-     background-color: black;
+    background-image: url('../images/background.png'),linear-gradient(45deg, rgb(5, 5, 5), #2e2e2e);;
 }
 .header-photo{
     width: 450px;
 }
 .cover-ptag{
     margin: 20px 0;
+    font-size: 20px;
 }
