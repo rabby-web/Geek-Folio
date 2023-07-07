@@ -55,8 +55,8 @@ li{
 }
 /* header end */
 /* banner start */
-.header-text-h1{
-    font-size: 40px;
+.header-text-h1 .h1-about-text{
+    font-size: 55px;
     font-family: 'Poppins', sans-serif;
 }
 .banner-container{
@@ -86,4 +86,34 @@ li{
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+/* service */
+.service{
+    background-image: url('../images/background.png'),linear-gradient(45deg, rgb(5, 5, 5), #2e2e2e);;
+}
+.service-text-h1{
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    font-family: 'Poppins';
+}
+.service-container{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 20px;
+    /* padding: 15px; */
+}
+.card{
+    width: 250px;
+    background-image: url('../images/background.png'),linear-gradient(45deg, rgb(5, 5, 5), #2e2e2e);;
+    padding: 15px;
+    border-radius: 2px 25px;
+    margin: 40px 10px;
+    border-bottom: 1px solid gray;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.card-img{
+    width: 110px;
 }
